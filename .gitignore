@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets & env
+.env
+
+# Data (keep folders, ignore large/raw CSVs)
+backend/data/raw/*.csv
+backend/data/processed/*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
